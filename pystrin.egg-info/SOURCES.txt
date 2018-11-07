@@ -1,8 +1,0 @@
-README.md
-setup.py
-pystrin/__init__.py
-pystrin/pystrin.py
-pystrin.egg-info/PKG-INFO
-pystrin.egg-info/SOURCES.txt
-pystrin.egg-info/dependency_links.txt
-pystrin.egg-info/top_level.txt
