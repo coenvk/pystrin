@@ -1,6 +1,12 @@
 # pystrin
 A small Python library for string interpolation.
 
+### Installing
+With **pip** this package can be installed as follows:
+```
+pip install pystrin
+```
+
 ### Usage
 Use the `f` method on a string with a literal for string interpolation. Use `printf` instead to directly print the result. An example is:
 ```
