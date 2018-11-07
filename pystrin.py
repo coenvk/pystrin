@@ -20,7 +20,6 @@ def _f_find(s):
 		end = ret[start:].find('}') + start
 		param = ret[start:end]
 		try:
-
 			arg = _eval(str(param))
 		except (SyntaxError, NameError, TypeError, ZeroDivisionError, ValueError) as e:
 			return s
@@ -42,6 +41,7 @@ def _f_regex(s):
 			return s
 		else:
 			reg = '{%s}' % param
+			reg = re.escape(reg)
 			ret = re.sub(reg, str(arg), ret)
 	return ret
 
